@@ -1,0 +1,87 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
+@tailwind base;
+
+@layer base {
+	.grid {
+		@apply grid-cols-1;
+	}
+	h1 {
+		@apply text-2xl;
+	}
+	h2 {
+		@apply text-xl;
+	}
+	h3 {
+		@apply text-lg;
+	}
+	h4 {
+		@apply text-base;
+	}
+}
+
+@tailwind components;
+@tailwind utilities;
+
+body {
+	overflow: overlay;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-track {
+	background: transparent;
+	margin-block: -3px;
+}
+::-webkit-scrollbar-thumb {
+	@apply bg-neutral-700;
+	border-radius: 9999px;
+	transition: 0.15s;
+}
+.checkered {
+	position: absolute;
+	inset: 0;
+	background-image: url(/checkered.svg);
+	background-repeat: repeat;
+}
+
+@keyframes text-colors {
+	0% {
+		color: #6caf93;
+	}
+	20% {
+		color: #f9e076;
+	}
+	40% {
+		color: #dfc98a;
+	}
+	60% {
+		color: #7bbe81;
+	}
+	80% {
+		color: #e5d3b3;
+	}
+	100% {
+		color: #fa8072;
+	}
+}
+@keyframes background-colors {
+	0% {
+		background: #6caf93;
+	}
+	20% {
+		background: #f9e076;
+	}
+	40% {
+		background: #dfc98a;
+	}
+	60% {
+		background: #7bbe81;
+	}
+	80% {
+		background: #e5d3b3;
+	}
+	100% {
+		background: #fa8072;
+	}
+}

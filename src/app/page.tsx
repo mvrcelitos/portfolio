@@ -45,7 +45,7 @@ export default function Page() {
 					<div>
 						<div className="flex items-center justify-center gap-1">
 							<Coffee className="h-6 w-6 animate-text-colors text-[var(--color)] duration-200" />
-							<Link href="https://github.com/mvrcelitos" className="text-center text-zinc-200 hover:underline underline-offset-2">mvrcelo</span>
+							<Link href="https://github.com/mvrcelitos" className="text-center text-zinc-200 hover:underline underline-offset-2">mvrcelo</Link>
 						</div>
 						<p className="text-center text-sm text-zinc-400">In construction.</p>
 					</div>

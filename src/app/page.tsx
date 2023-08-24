@@ -1,4 +1,4 @@
-import { Link } from "next/link";
+import Link from "next/link";
 import { Coffee, Sprout } from "lucide-react";
 import { Header } from "@/components/header";
 

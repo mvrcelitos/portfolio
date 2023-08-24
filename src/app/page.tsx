@@ -1,5 +1,6 @@
-import { Header } from "@/components/header";
+import { Link } from "next/link";
 import { Coffee, Sprout } from "lucide-react";
+import { Header } from "@/components/header";
 
 export default function Page() {
 	return (
@@ -44,9 +45,9 @@ export default function Page() {
 					<div>
 						<div className="flex items-center justify-center gap-1">
 							<Coffee className="h-6 w-6 animate-text-colors text-[var(--color)] duration-200" />
-							<span className="text-center text-zinc-200">cqffee</span>
+							<Link href="https://github.com/mvrcelitos" className="text-center text-zinc-200 hover:underline underline-offset-2">mvrcelo</span>
 						</div>
-						<p className="text-center text-sm text-zinc-400">Yeah, just a footer.</p>
+						<p className="text-center text-sm text-zinc-400">In construction.</p>
 					</div>
 				</footer>
 			</div>

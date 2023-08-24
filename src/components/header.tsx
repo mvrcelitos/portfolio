@@ -1,5 +1,6 @@
 import Link, { LinkProps } from "next/link";
 import { VariantProps, cva } from "class-variance-authority";
+import { Github } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 
@@ -24,7 +25,7 @@ const navLinkVariants = cva(
 		variants: {
 			variant: {
 				white: "text-zinc-500 hover:bg-zinc-300 hover:text-zinc-800 focus-visible:bg-zinc-300 focus-visible:text-zinc-800",
-				dark: "text-zinc-500 hover:bg-zinc-800 hover:text-zinc-300 focus-visible:bg-zinc-800 focus-visible:text-zinc-300",
+				dark: "text-zinc-400 hover:bg-zinc-800 hover:text-zinc-300 focus-visible:bg-zinc-800 focus-visible:text-zinc-300",
 			},
 		},
 		defaultVariants: {
@@ -48,6 +49,9 @@ export function Header({ variant }: HeaderProps) {
 			</NavLink>
 			<NavLink variant={variant} href="/about">
 				About
+			</NavLink>
+			<NavLink variant={variant} href="github.com/mvrcelitos">
+				<Github/>Github
 			</NavLink>
 		</header>
 	);

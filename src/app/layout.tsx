@@ -6,8 +6,8 @@ import { Header } from "@/components/header";
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
 	title: {
-		default: "Home | mvrch",
-		template: "%s | mvrch",
+		default: "Home | mvrcelo",
+		template: "%s | mvrcelo",
 	},
 	description: "just a portfolio page!",
 };

@@ -51,7 +51,7 @@ export function Header({ variant }: HeaderProps) {
 				About
 			</NavLink>
 			<NavLink variant={variant} href="github.com/mvrcelitos">
-				<Github/>Github
+				<Github className="w-4 h-4 shrink-0 mr-1"/>Github
 			</NavLink>
 		</header>
 	);
